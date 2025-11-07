@@ -56,5 +56,6 @@ npm run dev
 
 4) Build & Preview
 
-npm run build
+npm run build   
+
 npm start
