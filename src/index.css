@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fleximg::-webkit-scrollbar {
+  width: 5px;
+}
+.fleximg::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.fleximg::-webkit-scrollbar-track {
+  background-color: lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.fleximg::-webkit-scrollbar-button {
+  display: none;
+}
+.fleximg::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+}
