@@ -43,14 +43,18 @@ The project envisions a billing system that is fast, environmentally responsible
 **Requirements:** Node.js 18+
 
 1) Install  
+
 npm install
 
 2) Create .env in project root
+
 VITE_API_URL=http://localhost:8080
 
 3) Develop
+
 npm run dev
 
 4) Build & Preview
+
 npm run build
 npm start
